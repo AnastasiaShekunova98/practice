@@ -7,12 +7,12 @@ num3 = input ("Введите минуты приседаний: ")
 print ("РЕЗУЛЬТАТЫ ТРЕНИРОВКИ")
 
 # Расчет калорий при беге
-running = int (num1) * 10
-print(f"Бег: {num1} мин * 10 ккал = {running}ккал")
+running = int (num1) * 11
+print(f"Бег: {num1} мин * 11 ккал = {running}ккал")
 
 # Расчет калорий при отжиманиях
-push_ups = int (num2) * 8
-print(f"Отжимания: {num2} мин * 8 ккал = {push_ups} ккал")
+push_ups = int (num2) * 10
+print(f"Отжимания: {num2} мин * 10 ккал = {push_ups} ккал")
 
 # Расчет калорий при приседаниях
 squats = int (num3) * 12
